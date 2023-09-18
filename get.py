@@ -29,7 +29,7 @@ def get_stadium(periodID, stadiumID, token):
         'xweb_xhr': '1',
         'resultJSONSignature': getsig(str(timestamp)),
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF XWEB/6763',
-        'token': 'cb9eb08f-26b3-4984-bcfb-a8a583b53482',
+        'token': token,
         'Content-Type': 'application/json',
         'Accept': '*/*',
         'Sec-Fetch-Site': 'cross-site',
